@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--
+      If you are serving your web app in a path other than the root, change the
+      href value below to reflect the base path you are serving from.
+
+      The path provided below has to start and end with a slash "/" in order for
+      it to work correctly.
+
+      For more details:
+      * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+      This is a placeholder for base href that will be replaced by the value of
+      the `--base-href` argument provided to `flutter build`.
+    -->
+    <base href="$FLUTTER_BASE_HREF">
+
+    <meta charset="UTF-8">
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="description" content="Verify and view certificates">
+
+    <!-- iOS meta tags & icons -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="JoyForge Technologies">
+    <meta name="google-site-verification" content="9TUEhUePoCO4UShRU-D_ueh5JzsBfwQQMnog6F5xZG4"/>
+    <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <title>JoyForge Technologies</title>
+    <link rel="manifest" href="manifest.json">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.12.0/lottie.min.js"
+            defer></script>
+    <script src="./lottie.js" defer></script>
+    <script>
+        // The value below is injected by flutter build, do not touch.
+        var serviceWorkerVersion = null;
+    </script>
+    <!-- This script adds the flutter initialization JS code -->
+    <script src="flutter.js" defer></script>
+
+
+    <style>
+        body>div{
+        height: 100svh;
+        height: 100vh;
+        width : 100svw;
+        width : 100vw;
+
+        background-color: #FDE7F9FF;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        }
+        .container {
+        display: flex; /* Default Axis is X*/
+        justify-content: center; /* Main Axis */
+        align-items: center; /* Cross Axis */
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        }
+        .in_container {
+
+
+        width: 50svw;
+        height: 50svh;
+
+        display: flex; /* Default Axis is X*/
+        justify-content: center; /* Main Axis */
+        align-items: center; /* Cross Axis */
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        }
+
+
+    </style>
+</head>
+
+<body style="overflow: hidden ;margin:0;padding:0">
+<div id='main'>
+
+    <div id="loading_indicator" class="container">
+        <div id="inside_loading" class="in_container">
+
+
+        </div>
+    </div>
+</div>
+
+<script>
+    window.addEventListener('load', function(ev) {
+      // Download main.dart.js
+      _flutter.loader.loadEntrypoint({
+        serviceWorker: {
+          serviceWorkerVersion: serviceWorkerVersion,
+        }
+      }).then(function(engineInitializer) {
+        return engineInitializer.initializeEngine();
+      }).then(function(appRunner) {
+        return appRunner.runApp();
+      });
+    });
+</script>
+
+<script>
+    window.addEventListener('beforeinstallprompt', function (e) {
+    e.preventDefault();
+    return false;
+    });
+</script>
+
+
+<script>
+    window.onload = function () {
+    setTimeout(function () {
+    var loadingIndicator =                 document.getElementById("main");
+    if (loadingIndicator) {
+    loadingIndicator.remove();
+    }
+    }, 10000);
+    };
+</script>
+</body>
+</html>

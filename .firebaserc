@@ -1,0 +1,21 @@
+{
+  "projects": {
+    "default": "spellwork-a66fe"
+  },
+  "targets": {
+    "spellwork-a66fe": {
+      "hosting": {
+        "real": [
+          "spellwork"
+        ],
+        "defaultt": [
+          "spellwork-a66fe"
+        ],
+        "joyforge": [
+          "joyforge"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}

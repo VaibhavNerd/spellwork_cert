@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "1013088948833",
+    "firebase_url": "https://spellwork-a66fe-default-rtdb.firebaseio.com",
+    "project_id": "spellwork-a66fe",
+    "storage_bucket": "spellwork-a66fe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1013088948833:android:edd69486c38feb50461020",
+        "android_client_info": {
+          "package_name": "com.example.spellwork_cert"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1013088948833-hav730mmh2addhkrdvscup2tmfs1jl49.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlcdHc6cSvkZeicar7hgS05PC063wQPU8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1013088948833-hav730mmh2addhkrdvscup2tmfs1jl49.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1013088948833:android:317b41a6926a1790461020",
+        "android_client_info": {
+          "package_name": "com.example.spellwork_cert_upload"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1013088948833-hav730mmh2addhkrdvscup2tmfs1jl49.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlcdHc6cSvkZeicar7hgS05PC063wQPU8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1013088948833-hav730mmh2addhkrdvscup2tmfs1jl49.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
